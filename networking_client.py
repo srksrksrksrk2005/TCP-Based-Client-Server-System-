@@ -3,7 +3,7 @@ import sys
 import os
 import subprocess
 
-host = "192.168.0.177" # Ip address of host 
+host = "0.0.0.0" # Ip address of host 
 port = 5000
 s=socket.socket() # creating socket
 try:
